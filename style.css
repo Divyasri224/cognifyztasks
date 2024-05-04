@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px;
+    mix-blend-mode: multiply;
+}
+
+.logo:hover {
+    cursor: pointer;
+    border: 1.5px solid white;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    border: 1.5px solid white;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+h2 {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container {
+    margin-left: 100px;
+}
+
+.para {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.info {
+    flex-basis: 50%;
+
+}
+
+form {
+    margin-top: 5px;
+    background: #fff;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button {
+    background: tomato;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+form .fa-solid {
+    align-self: center;
+    padding: 5px 5px;
+    color: #777;
+}
+
+p {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+
+.box {
+    width: 330px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 5px 10px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.box1 {
+    background-image: url("Data\ analytics.jpg");
+}
+
+.box2 {
+    width: 370px;
+    background-image: url("Importance-of-Artificial-Intelligence.jpeg");
+}
+
+.box3 {
+    background-image: url("ML.webp");
+}
+
+.box4 {
+    width: 370px;
+    background-image: url("IoT-internet-of-things-game.jpg");
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
